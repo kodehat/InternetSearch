@@ -75,10 +75,10 @@ public class SearxEngine implements SearchEngine {
                 Result ret = new Result(title, description, url);
                 resultList.add(ret);
             });
+            SEARCHING_SENDERS.remove(sender);
             resultCallback.results(resultList);
         });
 
-        SEARCHING_SENDERS.remove(sender);
         return true;
     }
 }
