@@ -1,0 +1,56 @@
+#--------------------------------------------------------
+#  PLUGIN SETTINGS:
+#--------------------------------------------------------
+
+# Sets the search engine, which is used.
+# Available engines: 'duckduckgo' (recommended), 'searx' (not recommended, API rate limit reached fast)
+search_engine: 'duckduckgo'
+
+# Sets the maximal amount of results, which is shown.
+max_results: 4
+
+# Provided languages: 'en' (English), 'de' (German). You can add more below.
+language: 'en'
+
+# All available strings from the plugin are changeable.
+language_strings:
+  en:
+    plugin_tag: '&7[&3In&cter&enet&3Sear&ach&7] '
+    no_permission: '&cYou do not have enough permissions.'
+    cmd_not_exists: '&cThis command does not exist.'
+    cmd_info_version: ' &3Version: &7%s'
+    cmd_info_author: ' &3Author: &7%s'
+    cmd_info_license: ' &3License: &7GNU General Public License v3.0'
+    cmd_help_search: '&7Executes a search request.'
+    cmd_help_reload: '&7Reloads the config.'
+    cmd_help_help: '&7Shows this page.'
+    cmd_reload: '&aConfig has been reloaded!'
+    cmd_search_empty_query: '&cQuery cannot be empty!'
+    cmd_search_long_query: '&cSearch query is too long (max: 100 characters).'
+    cmd_search_undefined_engine: '&cDefined search engine could not be found!'
+    cmd_search_already_searching: '&cYou are already searching. Please wait!'
+    cmd_search_searching: '&aSearching...'
+    cmd_search_results: '&aResults for: &6%s'
+    cmd_search_title: '&3Title: &e%s'
+    cmd_search_description: '&3Description: &7%s'
+    cmd_search_url: '&3URL: &6&n%s'
+  de:
+    plugin_tag: '&7[&3In&cter&enet&3Su&ache&7] '
+    no_permission: '&cDu hast nicht genügend Rechte.'
+    cmd_not_exists: '&cDieser Befehl existiert nicht.'
+    cmd_info_version: ' &3Version: &7%s'
+    cmd_info_author: ' &3Autor: &7%s'
+    cmd_info_license: ' &3Lizenz: &7GNU General Public License v3.0'
+    cmd_help_search: '&7Startet eine Suchanfrage.'
+    cmd_help_reload: '&7Lädt die Config neu.'
+    cmd_help_help: '&7Zeigt diese Seite.'
+    cmd_reload: '&aConfig wurde neugeladen!'
+    cmd_search_empty_query: '&cParameter dürfen nicht leer sein!'
+    cmd_search_long_query: '&cParamter sind zu lang (max: 100 Zeichen).'
+    cmd_search_undefined_engine: '&cDie Suchmaschine konnte nicht gefunden werden!'
+    cmd_search_already_searching: '&cDu suchst bereits. Bitt warte!'
+    cmd_search_searching: '&aSuche...'
+    cmd_search_results: '&aErgebnisse für: &6%s'
+    cmd_search_title: '&3Titel: &e%s'
+    cmd_search_description: '&3Beschreibung: &7%s'
+    cmd_search_url: '&3URL: &6&n%s'

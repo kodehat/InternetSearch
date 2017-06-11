@@ -1,0 +1,33 @@
+name: InternetSearch
+main: de.codehat.internetsearch.InternetSearch
+author: CodeHat
+website: https://www.spigotmc.org/none
+description: Search something in the internet.
+version: 1.0.0
+
+commands:
+  ints:
+    description: Shows help page.
+    usage: /<command>
+    aliases: [internetsearch]
+  search:
+    description: Search something in the internet.
+    usage: /<command>
+    aliases: [google]
+
+permissions:
+  internetsearch.*:
+    description: Access to all features.
+    children:
+      internetsearch.search: true
+      internetsearch.reload: true
+      internetsearch.info: true
+      internetsearch.help: true
+  internetsearch.search:
+    description: Allows you to use the search command.
+  internetsearch.reload:
+    description: Allows you to reload the config.
+  internetsearch.info:
+    description: Allows you to see the info page.
+  internetsearch.help:
+    description: Allows you to view the help page.
