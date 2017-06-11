@@ -92,9 +92,9 @@ public class InternetSearch extends JavaPlugin {
     }
 
     /**
-     * Returns a map containing all available search eingines.
+     * Returns a map containing all available search engines.
      *
-     * @return A map containing all available search eingines.
+     * @return A map containing all available search engines.
      */
     public Map<String, SearchEngine> getSearchEngines() {
         return searchEngines;
