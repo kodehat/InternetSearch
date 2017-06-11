@@ -16,8 +16,9 @@ and for `/search` you can alternatively use `/google`
 ## Permissions
 
 - `internetsearch.*` - Access to all features.
-- `internetsearch.info` - Allows you to see the SignColors info.
-- `internetsearch.help` - Allows you to see the `/sc` help page.
+- `internetsearch.search` - Allows you to execute a search request.
+- `internetsearch.info` - Allows you to see the info page.
+- `internetsearch.help` - Allows you to see the help page.
 - `internetsearch.reload` - Allows you to reload the config.yml.
 
 ## Add your own language
