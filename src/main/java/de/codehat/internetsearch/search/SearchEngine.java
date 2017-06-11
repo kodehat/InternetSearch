@@ -16,7 +16,7 @@ public interface SearchEngine {
 
     /**
      * Runs a new search request based on the given query.
-     * Method should be run asynchronously and result the result should be given to the callback.
+     * Method should be run asynchronously and the result should be given to the callback.
      *
      * @param query Search query.
      * @param maxResults Amount of results, which is shown to the executer.
@@ -27,7 +27,7 @@ public interface SearchEngine {
     boolean search(String query, int maxResults, CommandSender sender, ResultCallback resultCallback);
 
     /**
-     * Checks if the given senders is currently searching.
+     * Checks if the given sender is currently searching.
      *
      * @param sender The sender to check.
      * @return true if currently searching, false if currently not searching.
