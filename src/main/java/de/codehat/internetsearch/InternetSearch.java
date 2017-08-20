@@ -3,6 +3,7 @@ package de.codehat.internetsearch;
 import de.codehat.internetsearch.commands.*;
 import de.codehat.internetsearch.search.engines.DuckDuckGoEngine;
 import de.codehat.internetsearch.search.SearchEngine;
+import de.codehat.internetsearch.search.engines.GoogleEngine;
 import de.codehat.internetsearch.search.engines.SearxEngine;
 import de.codehat.internetsearch.util.Message;
 import org.bukkit.plugin.PluginDescriptionFile;
@@ -71,6 +72,7 @@ public class InternetSearch extends JavaPlugin {
     private void registerSearchEngines() {
         this.searchEngines.put("duckduckgo", new DuckDuckGoEngine(this));
         this.searchEngines.put("searx", new SearxEngine(this));
+        this.searchEngines.put("google", new GoogleEngine(this));
     }
 
     /**

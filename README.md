@@ -1,4 +1,4 @@
-InternetSearch
+InternetSearch [![Build Status](https://travis-ci.org/Pixelhash/InternetSearch.svg?branch=master)](https://travis-ci.org/Pixelhash/InternetSearch)
 ==============
 
 Repository of the InternetSearch plugin.

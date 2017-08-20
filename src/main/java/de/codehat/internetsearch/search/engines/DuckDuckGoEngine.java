@@ -82,6 +82,4 @@ public class DuckDuckGoEngine implements SearchEngine {
 
         return true;
     }
-
-
 }

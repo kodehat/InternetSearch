@@ -3,7 +3,7 @@
 #--------------------------------------------------------
 
 # Sets the search engine, which is used.
-# Available engines: 'duckduckgo' (recommended), 'searx' (not recommended, API rate limit reached fast)
+# Available engines: 'duckduckgo' (recommended), 'google', 'searx' (not recommended, API rate limit reached fast)
 search_engine: 'duckduckgo'
 
 # Sets the maximal amount of results, which is shown.
@@ -46,7 +46,7 @@ language_strings:
     cmd_help_help: '&7Zeigt diese Seite.'
     cmd_reload: '&aConfig wurde neugeladen!'
     cmd_search_empty_query: '&cParameter dürfen nicht leer sein!'
-    cmd_search_long_query: '&cParamter sind zu lang (max: 100 Zeichen).'
+    cmd_search_long_query: '&cParameter sind zu lang (max: 100 Zeichen).'
     cmd_search_undefined_engine: '&cDie Suchmaschine konnte nicht gefunden werden!'
     cmd_search_already_searching: '&cDu suchst bereits. Bitt warte!'
     cmd_search_searching: '&aSuche...'

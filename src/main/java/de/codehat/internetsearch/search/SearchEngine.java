@@ -16,10 +16,10 @@ public interface SearchEngine {
 
     /**
      * Runs a new search request based on the given query.
-     * Method should be run asynchronously and the result should be given to the callback.
+     * Method should be run asynchronously and the results should be given to the callback.
      *
      * @param query Search query.
-     * @param maxResults Amount of results, which is shown to the executer.
+     * @param maxResults Amount of results, which is shown to the executor.
      * @param sender Sender, which executed search command.
      * @param resultCallback Callback, which gets all found results.
      * @return true if executed successfully, false if player already started a search request some seconds ago.
